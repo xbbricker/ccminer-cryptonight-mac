@@ -12,7 +12,7 @@ To run this program, you'll need to have installed:
   * [High Sierra: 10.13.2](http://www.nvidia.com/download/driverResults.aspx/127670/en-us)
   * [Search Other Versions (Untested)](https://www.google.ca/search?q=site:www.nvidia.com/download/driverResults.aspx+10.x.x)
 
-* The ccminer executable and CUDA runtime library. [download .zip](https://github.com/xbbricker/ccminer-cryptonight-mac/archive/master.zip)
+* The ccminer executable and CUDA runtime library. [download .zip](https://github.com/xbbricker/ccminer-cryptonight-mac/archive/CUDA-9-driver.zip)
 
 Usage
 -
@@ -21,4 +21,5 @@ See
 
 Changelog
 -
-* 
+* Updated to support CUDA 9.0 (only)
+* Dropped support for compute version 2.0
