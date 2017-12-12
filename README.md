@@ -5,13 +5,14 @@ Setup
 --
 To run this program, you'll need to have installed:
 
-* The latest [NVIDIA CUDA driver](https://www.nvidia.com/object/mac-driver-archive.html)
+* [NVIDIA CUDA 8.0 driver](https://www.nvidia.com/object/macosx-cuda-8.0.90-driver.html)
 
 * The "web" driver appropriate for your macOS version
   * [El Capitan: 10.11.6](http://www.nvidia.com/download/driverResults.aspx/114670/en-us).
-  * [Sierra: 10.12.3](http://www.nvidia.com/download/driverResults.aspx/114669/en-us)
+  * [Sierra: 10.12.6](http://www.nvidia.com/download/driverResults.aspx/120845/en-us)
+  * [Search Other Versions (Untested)](https://www.google.ca/search?q=site:www.nvidia.com/download/driverResults.aspx+10.x.x)
 
-* The ccminer executable and CUDA runtime library. [download .zip](https://github.com/xbbricker/ccminer-cryptonight-mac/archive/master.zip)
+* The ccminer executable and CUDA runtime library. [download .zip](https://github.com/xbbricker/ccminer-cryptonight-mac/archive/CUDA-8-driver.zip)
 
 Usage
 -
