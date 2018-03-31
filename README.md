@@ -47,6 +47,7 @@ git clone -b mac https://github.com/xbbricker/ccminer-cryptonight-mac
 cd ccminer-cryptonight-mac
 ./autogen.sh
 ./configure
+make
 ```
 
 
