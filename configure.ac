@@ -131,7 +131,8 @@ AC_CONFIG_FILES([
 
 dnl find out what version we are running
 ARCH=`uname -m`
-if [[ $ARCH == "x86_64" ]];
+PLAT=`uname`
+if [[ $ARCH == "x86_64" ]] && [[ $PLAT != "Darwin" ]];
 then
   SUFFIX="64"
 else
@@ -162,3 +163,5 @@ AC_SUBST(NVCC)
 AC_SUBST(OPENMP_CFLAGS) 
 
 AC_OUTPUT
+
+AC_CONFIG_MACRO_DIR([.])
